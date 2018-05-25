@@ -1,0 +1,50 @@
+Why were inverters added after the PB[1..0] inputs ?
+
+-> Before the inversion, the default settings of the push button were 
+   1 - if the button was not pressed &
+   0 - if the button was pressed.
+   We used the inverters to change this to
+   0 - if the button was not pressed &
+   1 - if the button was pressed.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Name one typical development process used in an FPGA design
+
+-> 
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+What are the two main components of a VHDL design file?
+
+-> ENTITY & ARCHITECTURE
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+What style of coding was used in the Lab1 VHDL Architecture section?
+
+-> Behavioral Style: where the relation between input & output is declared using 
+   logical equations.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+For your Polarity Control block whatkind of gate was used ?
+
+-> XOR Gate
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+BONUS Questions
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+For automation we added a counter to the 50 MHz clock input. The highest bits
+(COUNT[27..26] )  of the counter selected  to drive the logic block operations. Why?
+
+-> 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+What change(s) could make the LED’s flash faster?
+
+->
+
+
