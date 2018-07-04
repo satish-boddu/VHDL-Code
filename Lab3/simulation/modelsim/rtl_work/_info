@@ -1,0 +1,215 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dN:/ECE124/Lab 3/simulation/modelsim
+Ecompx1
+Z1 w1519177891
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8N:/ECE124/Lab 3/Compx1.vhd
+Z6 FN:/ECE124/Lab 3/Compx1.vhd
+l0
+L6
+Vd53a?HVWl8]h2B0UJB_bT1
+!s100 ^]bRTPa`HkA_o>7fc;Oki1
+Z7 OV;C;10.4b;61
+31
+Z8 !s110 1520198710
+!i10b 1
+Z9 !s108 1520198710.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|N:/ECE124/Lab 3/Compx1.vhd|
+Z11 !s107 N:/ECE124/Lab 3/Compx1.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1
+Acomp1
+R2
+R3
+R4
+DEx4 work 6 compx1 0 22 d53a?HVWl8]h2B0UJB_bT1
+l19
+L17
+VENoi5H^HO[e0Kh2lY]XN42
+!s100 XL3hGn3LVYYQK[U2bWZh23
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecompx4
+Z14 w1519249589
+R2
+R3
+R4
+R0
+Z15 8N:/ECE124/Lab 3/Compx4.vhd
+Z16 FN:/ECE124/Lab 3/Compx4.vhd
+l0
+L6
+VVO3;UbK6XQBKFbJeejba93
+!s100 0EBQ2J21mVRi4678fAODm2
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|N:/ECE124/Lab 3/Compx4.vhd|
+Z18 !s107 N:/ECE124/Lab 3/Compx4.vhd|
+!i113 1
+R12
+R13
+Acomp4
+R2
+R3
+R4
+DEx4 work 6 compx4 0 22 VO3;UbK6XQBKFbJeejba93
+l33
+L31
+VD5PfOa<UEl2NQZeUgn5c13
+!s100 2lmVhLJ6EU1ZCYKXfFz[S3
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Elogicalstep_lab3_top
+Z19 w1519258675
+R2
+R3
+R4
+R0
+Z20 8N:/ECE124/Lab 3/LogicalStep_Lab3_top.vhd
+Z21 FN:/ECE124/Lab 3/LogicalStep_Lab3_top.vhd
+l0
+L6
+VmkYYz<]3>VHBPXKc]7G:k2
+!s100 =FT2QNPmH`mRObSP6WXkU2
+R7
+31
+Z22 !s110 1520198709
+!i10b 1
+Z23 !s108 1520198709.000000
+Z24 !s90 -reportprogress|300|-93|-work|work|N:/ECE124/Lab 3/LogicalStep_Lab3_top.vhd|
+Z25 !s107 N:/ECE124/Lab 3/LogicalStep_Lab3_top.vhd|
+!i113 1
+R12
+R13
+Aenergy_monitor
+R2
+R3
+R4
+DEx4 work 20 logicalstep_lab3_top 0 22 mkYYz<]3>VHBPXKc]7G:k2
+l136
+L18
+Vnfam5c_I61U^AEP;G2QFF1
+!s100 ]cbV]fUJFn:dI:]FjYJI20
+R7
+31
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R12
+R13
+Esegment7_mux
+Z26 w1491498748
+R2
+R3
+R4
+R0
+Z27 8N:/ECE124/Lab 3/segment7_mux.vhd
+Z28 FN:/ECE124/Lab 3/segment7_mux.vhd
+l0
+L52
+VSjdkHh64gHFmPGf:E2C3j3
+!s100 <9hNY[@UcmBTcjH?JCU<R2
+R7
+31
+R22
+!i10b 1
+R23
+Z29 !s90 -reportprogress|300|-93|-work|work|N:/ECE124/Lab 3/segment7_mux.vhd|
+Z30 !s107 N:/ECE124/Lab 3/segment7_mux.vhd|
+!i113 1
+R12
+R13
+Asyn
+R2
+R3
+R4
+DEx4 work 12 segment7_mux 0 22 SjdkHh64gHFmPGf:E2C3j3
+l72
+L67
+VAWTbSo;8GaA`:C2FDifMC3
+!s100 NdfK35Am56JD=jz7`>OAZ1
+R7
+31
+R22
+!i10b 1
+R23
+R29
+R30
+!i113 1
+R12
+R13
+Esevensegment
+Z31 w1517175476
+R2
+R3
+R4
+R0
+Z32 8N:/ECE124/Lab 3/SevenSegment.vhd
+Z33 FN:/ECE124/Lab 3/SevenSegment.vhd
+l0
+L10
+VIcE=JoX9k?e0S7Q]iSiUh2
+!s100 04IXS8z>2XE3`KedF`LM>0
+R7
+31
+R22
+!i10b 1
+R23
+Z34 !s90 -reportprogress|300|-93|-work|work|N:/ECE124/Lab 3/SevenSegment.vhd|
+Z35 !s107 N:/ECE124/Lab 3/SevenSegment.vhd|
+!i113 1
+R12
+R13
+Astructural
+R2
+R3
+R4
+DEx4 work 12 sevensegment 0 22 IcE=JoX9k?e0S7Q]iSiUh2
+l24
+L18
+V7<cnTCGQ`DM8^mbd?kU@70
+!s100 Q7;7]WPA^B[JMW79ac8430
+R7
+31
+R22
+!i10b 1
+R23
+R34
+R35
+!i113 1
+R12
+R13

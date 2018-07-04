@@ -1,0 +1,276 @@
+$comment
+	File created using the following command:
+		vcd file LogicalStep_Lab3.msim.vcd -direction
+$end
+$date
+	Wed Feb 21 17:15:56 2018
+$end
+$version
+	ModelSim Version 10.4b
+$end
+$timescale
+	1ps
+$end
+
+$scope module LogicalStep_Lab3_top_vlg_vec_tst $end
+$var reg 1 ! clkin_50 $end
+$var reg 4 " pb [3:0] $end
+$var reg 8 # sw [7:0] $end
+$var wire 1 $ leds [7] $end
+$var wire 1 % leds [6] $end
+$var wire 1 & leds [5] $end
+$var wire 1 ' leds [4] $end
+$var wire 1 ( leds [3] $end
+$var wire 1 ) leds [2] $end
+$var wire 1 * leds [1] $end
+$var wire 1 + leds [0] $end
+$var wire 1 , seg7_char1 $end
+$var wire 1 - seg7_char2 $end
+$var wire 1 . seg7_data [6] $end
+$var wire 1 / seg7_data [5] $end
+$var wire 1 0 seg7_data [4] $end
+$var wire 1 1 seg7_data [3] $end
+$var wire 1 2 seg7_data [2] $end
+$var wire 1 3 seg7_data [1] $end
+$var wire 1 4 seg7_data [0] $end
+
+$scope module i1 $end
+$var wire 1 5 gnd $end
+$var wire 1 6 vcc $end
+$var wire 1 7 unknown $end
+$var tri1 1 8 devclrn $end
+$var tri1 1 9 devpor $end
+$var tri1 1 : devoe $end
+$var wire 1 ; clkin_50~input_o $end
+$var wire 1 < pb[0]~input_o $end
+$var wire 1 = pb[1]~input_o $end
+$var wire 1 > pb[2]~input_o $end
+$var wire 1 ? pb[3]~input_o $end
+$var wire 1 @ ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 A ~QUARTUS_CREATED_UNVM~~busy $end
+$var wire 1 B ~QUARTUS_CREATED_ADC1~~eoc $end
+$var wire 1 C leds[0]~output_o $end
+$var wire 1 D leds[1]~output_o $end
+$var wire 1 E leds[2]~output_o $end
+$var wire 1 F leds[3]~output_o $end
+$var wire 1 G leds[4]~output_o $end
+$var wire 1 H leds[5]~output_o $end
+$var wire 1 I leds[6]~output_o $end
+$var wire 1 J leds[7]~output_o $end
+$var wire 1 K seg7_data[0]~output_o $end
+$var wire 1 L seg7_data[1]~output_o $end
+$var wire 1 M seg7_data[2]~output_o $end
+$var wire 1 N seg7_data[3]~output_o $end
+$var wire 1 O seg7_data[4]~output_o $end
+$var wire 1 P seg7_data[5]~output_o $end
+$var wire 1 Q seg7_data[6]~output_o $end
+$var wire 1 R seg7_char1~output_o $end
+$var wire 1 S seg7_char2~output_o $end
+$var wire 1 T sw[0]~input_o $end
+$var wire 1 U sw[1]~input_o $end
+$var wire 1 V sw[4]~input_o $end
+$var wire 1 W sw[5]~input_o $end
+$var wire 1 X INST5|AGTB[0]~1_combout $end
+$var wire 1 Y sw[6]~input_o $end
+$var wire 1 Z sw[7]~input_o $end
+$var wire 1 [ sw[3]~input_o $end
+$var wire 1 \ sw[2]~input_o $end
+$var wire 1 ] INST5|AGTB[0]~2_combout $end
+$var wire 1 ^ INST5|AGTB[0]~0_combout $end
+$var wire 1 _ INST5|AGTB[0]~3_combout $end
+$var wire 1 ` INST5|AEQB[0]~0_combout $end
+$var wire 1 a INST5|ALTB[0]~1_combout $end
+$var wire 1 b INST5|ALTB[0]~0_combout $end
+$var wire 1 c INST5|ALTB[0]~2_combout $end
+$var wire 1 d INST5|AEQB [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x!
+bx "
+b1000 #
+1+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0,
+0-
+04
+03
+02
+01
+00
+0/
+0.
+05
+16
+x7
+18
+19
+1:
+x;
+x<
+x=
+x>
+x?
+0@
+zA
+zB
+1C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+1[
+0\
+0]
+1^
+1_
+0`
+0a
+0b
+0c
+1d
+$end
+#60000
+b11000 #
+1V
+1a
+1`
+#120000
+b111000 #
+b101000 #
+1W
+0V
+#180000
+b111000 #
+1V
+#240000
+b1111000 #
+b1011000 #
+b1001000 #
+1Y
+0W
+0V
+0a
+0`
+#300000
+b1011000 #
+1V
+1a
+1`
+#360000
+b1111000 #
+b1101000 #
+1W
+0V
+#420000
+b1111000 #
+1V
+#480000
+b11111000 #
+b10111000 #
+b10011000 #
+b10001000 #
+1Z
+0Y
+0W
+0V
+0^
+1]
+0a
+0`
+0d
+0_
+0C
+1D
+1*
+0+
+#540000
+b10011000 #
+1V
+1a
+1`
+1d
+1c
+1E
+0D
+0*
+1)
+#600000
+b10111000 #
+b10101000 #
+1W
+0V
+#660000
+b10111000 #
+1V
+#720000
+b11111000 #
+b11011000 #
+b11001000 #
+1Y
+0W
+0V
+1b
+0]
+0a
+0`
+#780000
+b11011000 #
+1V
+1a
+1`
+#840000
+b11111000 #
+b11101000 #
+1W
+0V
+#900000
+b11111000 #
+1V
+#960000
+b1111000 #
+b111000 #
+b11000 #
+b1000 #
+0Z
+0Y
+0W
+0V
+0b
+1^
+0a
+0`
+0c
+1_
+1C
+0E
+0)
+1+
+#1000000
