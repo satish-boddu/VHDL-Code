@@ -1,0 +1,235 @@
+|LogicalStep_Lab3_top
+clkin_50 => segment7_mux:INST3.clk
+pb[0] => leds.IN1
+pb[0] => leds.IN1
+pb[0] => leds.IN1
+pb[0] => leds[4].DATAIN
+pb[1] => leds.IN1
+pb[1] => leds.IN1
+pb[1] => leds.IN1
+pb[1] => leds[5].DATAIN
+pb[2] => leds.IN1
+pb[2] => leds.IN1
+pb[2] => leds.IN1
+pb[2] => leds[6].DATAIN
+pb[3] => ~NO_FANOUT~
+sw[0] => SevenSegment:INST2.hex[0]
+sw[0] => Compx1:INST4.B[0]
+sw[1] => SevenSegment:INST2.hex[1]
+sw[1] => Compx1:INST5.B[0]
+sw[2] => SevenSegment:INST2.hex[2]
+sw[2] => Compx1:INST6.B[0]
+sw[3] => SevenSegment:INST2.hex[3]
+sw[3] => Compx1:INST7.B[0]
+sw[4] => SevenSegment:INST1.hex[0]
+sw[4] => Compx1:INST4.A[0]
+sw[5] => SevenSegment:INST1.hex[1]
+sw[5] => Compx1:INST5.A[0]
+sw[6] => SevenSegment:INST1.hex[2]
+sw[6] => Compx1:INST6.A[0]
+sw[7] => SevenSegment:INST1.hex[3]
+sw[7] => Compx1:INST7.A[0]
+leds[0] << leds.DB_MAX_OUTPUT_PORT_TYPE
+leds[1] << Compx4:INST8.AEQB[0]
+leds[2] << leds.DB_MAX_OUTPUT_PORT_TYPE
+leds[3] << leds.DB_MAX_OUTPUT_PORT_TYPE
+leds[4] << pb[0].DB_MAX_OUTPUT_PORT_TYPE
+leds[5] << pb[1].DB_MAX_OUTPUT_PORT_TYPE
+leds[6] << pb[2].DB_MAX_OUTPUT_PORT_TYPE
+leds[7] << <GND>
+seg7_data[0] << segment7_mux:INST3.DOUT[0]
+seg7_data[1] << segment7_mux:INST3.DOUT[1]
+seg7_data[2] << segment7_mux:INST3.DOUT[2]
+seg7_data[3] << segment7_mux:INST3.DOUT[3]
+seg7_data[4] << segment7_mux:INST3.DOUT[4]
+seg7_data[5] << segment7_mux:INST3.DOUT[5]
+seg7_data[6] << segment7_mux:INST3.DOUT[6]
+seg7_char1 << segment7_mux:INST3.DIG2
+seg7_char2 << segment7_mux:INST3.DIG1
+
+
+|LogicalStep_Lab3_top|SevenSegment:INST1
+hex[0] => Mux0.IN19
+hex[0] => Mux1.IN19
+hex[0] => Mux2.IN19
+hex[0] => Mux3.IN19
+hex[0] => Mux4.IN19
+hex[0] => Mux5.IN19
+hex[0] => Mux6.IN19
+hex[1] => Mux0.IN18
+hex[1] => Mux1.IN18
+hex[1] => Mux2.IN18
+hex[1] => Mux3.IN18
+hex[1] => Mux4.IN18
+hex[1] => Mux5.IN18
+hex[1] => Mux6.IN18
+hex[2] => Mux0.IN17
+hex[2] => Mux1.IN17
+hex[2] => Mux2.IN17
+hex[2] => Mux3.IN17
+hex[2] => Mux4.IN17
+hex[2] => Mux5.IN17
+hex[2] => Mux6.IN17
+hex[3] => Mux0.IN16
+hex[3] => Mux1.IN16
+hex[3] => Mux2.IN16
+hex[3] => Mux3.IN16
+hex[3] => Mux4.IN16
+hex[3] => Mux5.IN16
+hex[3] => Mux6.IN16
+sevenseg[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+sevenseg[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+sevenseg[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+sevenseg[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+sevenseg[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+sevenseg[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+sevenseg[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LogicalStep_Lab3_top|SevenSegment:INST2
+hex[0] => Mux0.IN19
+hex[0] => Mux1.IN19
+hex[0] => Mux2.IN19
+hex[0] => Mux3.IN19
+hex[0] => Mux4.IN19
+hex[0] => Mux5.IN19
+hex[0] => Mux6.IN19
+hex[1] => Mux0.IN18
+hex[1] => Mux1.IN18
+hex[1] => Mux2.IN18
+hex[1] => Mux3.IN18
+hex[1] => Mux4.IN18
+hex[1] => Mux5.IN18
+hex[1] => Mux6.IN18
+hex[2] => Mux0.IN17
+hex[2] => Mux1.IN17
+hex[2] => Mux2.IN17
+hex[2] => Mux3.IN17
+hex[2] => Mux4.IN17
+hex[2] => Mux5.IN17
+hex[2] => Mux6.IN17
+hex[3] => Mux0.IN16
+hex[3] => Mux1.IN16
+hex[3] => Mux2.IN16
+hex[3] => Mux3.IN16
+hex[3] => Mux4.IN16
+hex[3] => Mux5.IN16
+hex[3] => Mux6.IN16
+sevenseg[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+sevenseg[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+sevenseg[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+sevenseg[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+sevenseg[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+sevenseg[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+sevenseg[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LogicalStep_Lab3_top|segment7_mux:INST3
+clk => \clk_proc:COUNT[0].CLK
+clk => \clk_proc:COUNT[1].CLK
+clk => \clk_proc:COUNT[2].CLK
+clk => \clk_proc:COUNT[3].CLK
+clk => \clk_proc:COUNT[4].CLK
+clk => \clk_proc:COUNT[5].CLK
+clk => \clk_proc:COUNT[6].CLK
+clk => \clk_proc:COUNT[7].CLK
+clk => \clk_proc:COUNT[8].CLK
+clk => \clk_proc:COUNT[9].CLK
+clk => \clk_proc:COUNT[10].CLK
+DIN2[0] => DOUT_TEMP.DATAB
+DIN2[1] => DOUT_TEMP[1].DATAB
+DIN2[2] => DOUT_TEMP.DATAB
+DIN2[3] => DOUT_TEMP.DATAB
+DIN2[4] => DOUT_TEMP.DATAB
+DIN2[5] => DOUT_TEMP[5].DATAB
+DIN2[6] => DOUT_TEMP[6].DATAB
+DIN1[0] => DOUT_TEMP.DATAA
+DIN1[1] => DOUT_TEMP[1].DATAA
+DIN1[2] => DOUT_TEMP.DATAA
+DIN1[3] => DOUT_TEMP.DATAA
+DIN1[4] => DOUT_TEMP.DATAA
+DIN1[5] => DOUT_TEMP[5].DATAA
+DIN1[6] => DOUT_TEMP[6].DATAA
+DOUT[0] <= DOUT_TEMP.DB_MAX_OUTPUT_PORT_TYPE
+DOUT[1] <= DOUT[1].DB_MAX_OUTPUT_PORT_TYPE
+DOUT[2] <= DOUT_TEMP.DB_MAX_OUTPUT_PORT_TYPE
+DOUT[3] <= DOUT_TEMP.DB_MAX_OUTPUT_PORT_TYPE
+DOUT[4] <= DOUT_TEMP.DB_MAX_OUTPUT_PORT_TYPE
+DOUT[5] <= DOUT[5].DB_MAX_OUTPUT_PORT_TYPE
+DOUT[6] <= DOUT[6].DB_MAX_OUTPUT_PORT_TYPE
+DIG2 <= \clk_proc:COUNT[10].DB_MAX_OUTPUT_PORT_TYPE
+DIG1 <= \clk_proc:COUNT[10].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LogicalStep_Lab3_top|Compx1:INST4
+A[0] => AGTB.IN0
+A[0] => AEQB.IN0
+A[0] => ALTB.IN0
+B[0] => AEQB.IN1
+B[0] => ALTB.IN1
+B[0] => AGTB.IN1
+AGTB[0] <= AGTB.DB_MAX_OUTPUT_PORT_TYPE
+AEQB[0] <= AEQB.DB_MAX_OUTPUT_PORT_TYPE
+ALTB[0] <= ALTB.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LogicalStep_Lab3_top|Compx1:INST5
+A[0] => AGTB.IN0
+A[0] => AEQB.IN0
+A[0] => ALTB.IN0
+B[0] => AEQB.IN1
+B[0] => ALTB.IN1
+B[0] => AGTB.IN1
+AGTB[0] <= AGTB.DB_MAX_OUTPUT_PORT_TYPE
+AEQB[0] <= AEQB.DB_MAX_OUTPUT_PORT_TYPE
+ALTB[0] <= ALTB.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LogicalStep_Lab3_top|Compx1:INST6
+A[0] => AGTB.IN0
+A[0] => AEQB.IN0
+A[0] => ALTB.IN0
+B[0] => AEQB.IN1
+B[0] => ALTB.IN1
+B[0] => AGTB.IN1
+AGTB[0] <= AGTB.DB_MAX_OUTPUT_PORT_TYPE
+AEQB[0] <= AEQB.DB_MAX_OUTPUT_PORT_TYPE
+ALTB[0] <= ALTB.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LogicalStep_Lab3_top|Compx1:INST7
+A[0] => AGTB.IN0
+A[0] => AEQB.IN0
+A[0] => ALTB.IN0
+B[0] => AEQB.IN1
+B[0] => ALTB.IN1
+B[0] => AGTB.IN1
+AGTB[0] <= AGTB.DB_MAX_OUTPUT_PORT_TYPE
+AEQB[0] <= AEQB.DB_MAX_OUTPUT_PORT_TYPE
+ALTB[0] <= ALTB.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LogicalStep_Lab3_top|Compx4:INST8
+A3GTB3[0] => AGTB.IN1
+A3EQB3[0] => AGTB.IN1
+A3EQB3[0] => AEQB.IN0
+A3EQB3[0] => ALTB.IN1
+A3LTB3[0] => ALTB.IN1
+A2GTB2[0] => AGTB.IN1
+A2EQB2[0] => AGTB.IN1
+A2EQB2[0] => AEQB.IN1
+A2EQB2[0] => ALTB.IN1
+A2LTB2[0] => ALTB.IN1
+A1GTB1[0] => AGTB.IN1
+A1EQB1[0] => AGTB.IN0
+A1EQB1[0] => AEQB.IN1
+A1EQB1[0] => ALTB.IN0
+A1LTB1[0] => ALTB.IN1
+A0GTB0[0] => AGTB.IN1
+A0EQB0[0] => AEQB.IN1
+A0LTB0[0] => ALTB.IN1
+AGTB[0] <= AGTB.DB_MAX_OUTPUT_PORT_TYPE
+AEQB[0] <= AEQB.DB_MAX_OUTPUT_PORT_TYPE
+ALTB[0] <= ALTB.DB_MAX_OUTPUT_PORT_TYPE
+
+
