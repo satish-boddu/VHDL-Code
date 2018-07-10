@@ -1,0 +1,42 @@
+
+State Machine - |LogicalStep_Lab4_top|ErrorFlash:INST36|current_state
+Name current_state.error_off current_state.error_on current_state.start 
+current_state.start 0 0 0 
+current_state.error_on 0 1 1 
+current_state.error_off 1 0 1 
+
+State Machine - |LogicalStep_Lab4_top|ErrorFlash:INST35|current_state
+Name current_state.error_off current_state.error_on current_state.start 
+current_state.start 0 0 0 
+current_state.error_on 0 1 1 
+current_state.error_off 1 0 1 
+
+State Machine - |LogicalStep_Lab4_top|Moore_SM2:INST7|current_state
+Name current_state.light_off current_state.light_on current_state.start 
+current_state.start 0 0 0 
+current_state.light_on 0 1 1 
+current_state.light_off 1 0 1 
+
+State Machine - |LogicalStep_Lab4_top|Moore_SM:INST5|current_state
+Name current_state.done current_state.retracted_hold current_state.retracting current_state.extended current_state.extend_hold current_state.extending current_state.start 
+current_state.start 0 0 0 0 0 0 0 
+current_state.extending 0 0 0 0 0 1 1 
+current_state.extend_hold 0 0 0 0 1 0 1 
+current_state.extended 0 0 0 1 0 0 1 
+current_state.retracting 0 0 1 0 0 0 1 
+current_state.retracted_hold 0 1 0 0 0 0 1 
+current_state.done 1 0 0 0 0 0 1 
+
+State Machine - |LogicalStep_Lab4_top|Mealy_SM:MEALY0|current_stateY
+Name current_stateY.ERRORY current_stateY.YSTOP current_stateY.YMOVE current_stateY.Y0 
+current_stateY.Y0 0 0 0 0 
+current_stateY.YMOVE 0 0 1 1 
+current_stateY.YSTOP 0 1 0 1 
+current_stateY.ERRORY 1 0 0 1 
+
+State Machine - |LogicalStep_Lab4_top|Mealy_SM:MEALY0|current_stateX
+Name current_stateX.ERRORX current_stateX.XSTOP current_stateX.XMOVE current_stateX.X0 
+current_stateX.X0 0 0 0 0 
+current_stateX.XMOVE 0 0 1 1 
+current_stateX.XSTOP 0 1 0 1 
+current_stateX.ERRORX 1 0 0 1 
